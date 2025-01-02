@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Details</title>
+</head>
+<body>
+    <h2>Team Login</h2>
+    <form action="submit_details.php" method="POST">
+        <label for="team_id">Enter Team ID (1-10):</label>
+        <input type="number" id="team_id" name="team_id" min="1" max="10" required>
+        <br><br>
+        
+        <h3>Player 1:</h3>
+        <label for="player1_uid">UID Number:</label>
+        <input type="text" id="player1_uid" name="player1_uid" required>
+        <label for="player1_name">In-Game Name:</label>
+        <input type="text" id="player1_name" name="player1_name" required>
+        <label for="player1_level">Level:</label>
+        <input type="text" id="player1_level" name="player1_level" required>
+        <br><br>
+
+        <h3>Player 2:</h3>
+        <label for="player2_uid">UID Number:</label>
+        <input type="text" id="player2_uid" name="player2_uid" required>
+        <label for="player2_name">In-Game Name:</label>
+        <input type="text" id="player2_name" name="player2_name" required>
+        <label for="player2_level">Level:</label>
+        <input type="text" id="player2_level" name="player2_level" required>
+        <br><br>
+
+        <h3>Player 3:</h3>
+        <label for="player3_uid">UID Number:</label>
+        <input type="text" id="player3_uid" name="player3_uid" required>
+        <label for="player3_name">In-Game Name:</label>
+        <input type="text" id="player3_name" name="player3_name" required>
+        <label for="player3_level">Level:</label>
+        <input type="text" id="player3_level" name="player3_level" required>
+        <br><br>
+
+        <h3>Player 4:</h3>
+        <label for="player4_uid">UID Number:</label>
+        <input type="text" id="player4_uid" name="player4_uid" required>
+        <label for="player4_name">In-Game Name:</label>
+        <input type="text" id="player4_name" name="player4_name" required>
+        <label for="player4_level">Level:</label>
+        <input type="text" id="player4_level" name="player4_level" required>
+        <br><br>
+
+        <input type="submit" value="Submit Details">
+    </form>
+</body>
+</html>
